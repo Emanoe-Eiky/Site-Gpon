@@ -1,0 +1,190 @@
+
+.mensgeTelaErro{
+    background-color:rgba(226, 19, 36, 0.034);
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    color:rgb(255, 0, 0);
+    border-radius: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.mensageTelaSucesso{
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    color: rgb(39, 223, 22);
+    border-radius: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-image: url(imgs/fibra-optica-abstrato.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.lineDadosPessoas{
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 6px;
+}
+
+p{
+    color:white;
+    font-size: 11px;
+}
+
+.emaiTele{
+    position: relative;
+    left: 50px;
+}
+
+.dadosClente{
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+/* dadospessoal */
+
+.nomePrimeiro{
+    position: relative;
+    left:1%px;
+    
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 32px;
+    font-size: 11px;
+}
+
+.NascInput{
+    position: relative;
+    left: 1%;
+    line-height: 10px;
+    border-radius: 6px;
+    padding: 0 22px;
+}
+
+.emailInput{
+    position: relative;
+    left: 50px;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+.rgInput{
+    position: relative;
+    left: 1%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+.telefoInput{
+    position: relative;
+    left: 50px;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+.cpfInput{
+    position: relative;
+    left: 1%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+/* endereço */
+
+.ruaInput{
+    position: relative;
+    left: 1%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+.numeroImput{
+    position: relative;
+    left: 1%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+.bairroInput{
+    position: relative;
+    left: 1%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+.cidadeInput{
+    position: relative;
+    left: 1%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+.cepInput{
+    position: relative;
+    left: 1%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 12px;
+}
+
+#enBtn{
+    position: relative;
+    left: 1vh;
+    top: -25px;
+    background-color: #38af9f;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #266473;
+    padding: 11px 70px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0 25px;
+
+}
+
+#limBtn{
+    position: relative;
+    left: 40vh;
+    top: -87px;
+    background-color: #38af9f ;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #266473;  
+    padding: 11px 70px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transform: 0 25px;
+}
+
+#limBtn:hover{
+    background-color: rgb(155, 4, 16);
+
+}
+
+#enBtn:hover{
+    background-color: rgb(70, 235, 20);
+}

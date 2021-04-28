@@ -1,0 +1,199 @@
+:root{
+    --cor-fundo: rgb(6, 85, 105);
+    --cor-hover: rgb(162, 236, 194);
+    --cor-primaria : rgb(231, 241, 236);
+
+}
+
+body{
+    background-color: rgba(1, 28, 41, 0.904);
+}
+
+.manuCabecalho ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.manuCabecalho ul{
+    background-color: var(--cor-fundo);
+    margin-top: 0%;
+    padding: 0%;
+
+}
+
+.manuCabecalho ul li{
+    display: inline;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    
+}
+
+.manuCabecalho ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    transition: all 2s;
+}
+
+.manuCabecalho ul li a:hover{
+    background-color: var(--cor-hover);
+}
+ /* sub menu  */
+
+.manuCabecalho ul ul{
+    display: none;
+    position: absolute;
+
+}
+
+.manuCabecalho ul li:hover ul{
+    display: block;
+    opacity: 1;
+}
+
+/* Tamanho do sub ti  */
+
+.manuCabecalho ul ul {
+    width: 260px;
+   
+}
+
+.manuCabecalho ul ul li a{
+    display: block;
+}
+
+.imagMenu{
+    margin-top: 2px;
+    position: relative;
+    left: 4px;
+    top: 0px;
+}
+
+#menuTel{
+    position: absolute;
+    left: 40%;
+    display: inline-block;
+    padding: 17px;
+}
+
+
+#menuTel:hover{
+    background-color: var(--cor-hover);
+    
+}
+
+/* titulo tecgp  */
+
+h2{
+    margin: 40px 0px 0px 0px;
+    padding: 16px 16px 2px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: rgb(250, 250, 250);
+}
+
+.imagFibra{
+    margin-top: 0px;
+    width: 99,98%;
+    height: 300px;
+    
+}
+
+/* Tabela de preços  */
+
+.planos{
+    position: relative;
+    left: 1%;
+    margin: 50px 0px 2px 2px;
+    background-color: rgba(26, 27, 27, 0.966);
+    width: 320px;
+    height: 350px;
+    border: solid 2px rgb(186, 211, 188);
+    border-radius: 10px;
+}
+
+.plonosTitulo, .plonosTitulo2, .plonosTitulo3 {
+    background-color: rgba(29, 149, 219, 0.692);
+    border: solid 2px  rgba(26, 27, 27, 0.966);
+    border-radius: 10px;
+}
+
+.plonosPrecos, .plonosPrecos2, .plonosPrecos3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#assiForm {
+    border-radius: 30px;
+    background-color: rgb(29, 150, 219);
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: rgb(223, 215, 215);
+    padding: 13px 0px 13px 0px;
+}
+
+#celarWhats {
+    border-radius: 30px;
+    background-color: rgb(91, 212, 67);
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: rgb(223, 215, 215);
+    padding: 13px /*cima*/ 0px/* <= direita*/ 13px /*BAIXO*/ 0px /*esquerda*/;
+}
+
+.planos2{
+    position: absolute;
+    left: 35%;
+    top: 93.98%;
+    margin-top: 50px;
+    background-color: rgba(26, 27, 27, 0.966);
+    width: 320px;
+    height: 350px;
+    border: solid 2px rgb(186, 211, 188);
+    border-radius: 10px;
+}
+
+.planos3{
+    position: absolute;
+    left: 68%;
+    top: 93.98%;
+    margin-top: 50px;
+    background-color: rgba(26, 27, 27, 0.966);
+    width: 320px;
+    height: 350px;
+    border: solid 2px rgb(186, 211, 188);
+    border-radius: 10px;
+}
+
+div p a{
+    padding: 6px;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    display: inline-block;
+}
+
+#assiForm:hover {
+    background-color: rgba(132, 187, 218, 0.801);
+    
+}
+
+#celarWhats:hover{
+    background-color: rgba(177, 219, 168, 0.76);
+}
+
+@media(max-width:900px){
+    .planos2, .planos3{
+        position: relative;
+        left: 1%;
+    }
+}
